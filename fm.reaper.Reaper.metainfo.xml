@@ -26,8 +26,8 @@
   <releases>
     <release version="v6.78" date="2023-03-13">
       <description>
+        <p>The following components were updated:</p>
         <ul>
-          <p>The following components were updated:</p>
           <li>- FX</li>
           <li>- MIDI editor</li>
           <li>- Render</li>
