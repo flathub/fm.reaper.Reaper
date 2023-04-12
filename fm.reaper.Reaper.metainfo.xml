@@ -25,20 +25,22 @@
   </screenshots>
   <releases>
     <release version="v6.78" date="2023-03-13">
-      <ul>
+      <description>
         <p>The following components were updated:</p>
-        <li>- FX</li>
-        <li>- MIDI editor</li>
-        <li>- Render</li>
-        <li>- Actions</li>
-        <li>- MIDI</li>
-        <li>- Project tabs</li>
-        <li>- Snap</li>
-        <li>- Track panels</li>
-        <li>- Vertical zoom</li>
-        <li>- VST</li>
-        <li>- Windows</li>
-      </ul>
+        <ul>
+          <li>- FX</li>
+          <li>- MIDI editor</li>
+          <li>- Render</li>
+          <li>- Actions</li>
+          <li>- MIDI</li>
+          <li>- Project tabs</li>
+          <li>- Snap</li>
+          <li>- Track panels</li>
+          <li>- Vertical zoom</li>
+          <li>- VST</li>
+          <li>- Windows</li>
+        </ul>
+      </description>
     </release>
   </releases>
   <developer_name>
