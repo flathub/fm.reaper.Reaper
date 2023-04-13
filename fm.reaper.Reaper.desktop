@@ -1,7 +1,8 @@
 [Desktop Entry]
 Name=Reaper
+Comment=Digital Audio Workstation
+Categories=Audio;Video;AudioVideo;AudioVideoEditing;Recorder;
 Exec=reaper
 Icon=fm.reaper.Reaper
+MimeType=application/x-reaper-project;application/x-reaper-project-backup;application/x-reaper-theme;
 Type=Application
-Comment=Digital Audio Workstation
-Categories=AudioVideo;Audio;Video;
