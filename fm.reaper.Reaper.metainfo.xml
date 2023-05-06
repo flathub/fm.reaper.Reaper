@@ -24,21 +24,65 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="v6.79" date="2023-04-23">
+      <description>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>FX.</li>
+          <li>JSFX</li>
+          <li>Super8</li>
+          <li>macOS</li>
+          <li>MIDI</li>
+          <li>MIDI import</li>
+          <li>Multimonitor</li>
+          <li>Sends</li>
+          <li>Tooltips</li>
+          <li>Track grouping</li>
+          <li>VST</li>
+          <li>ARA</li>
+          <li>Hardware outputs</li>
+          <li>IDEs</li>
+          <li>Media Explorer</li>
+          <li>Menus</li>
+          <li>MIDI epxort</li>
+          <li>MIDI export</li>
+          <li>Notation</li>
+          <li>Pencil drawing</li>
+          <li>Pin connector window</li>
+          <li>ReaScript</li>
+          <li>ReaVerb</li>
+          <li>Recording</li>
+          <li>Render</li>
+          <li>Routing window</li>
+          <li>Subprojects</li>
+          <li>Take envelopes</li>
+          <li>Terminology</li>
+          <li>Track grouping matrix</li>
+          <li>Track metering</li>
+          <li>Undo</li>
+          <li>Vertical zoom</li>
+          <li>Video</li>
+          <li>Web interfaces</li>
+          <li>Windows</li>
+          <li>API</li>
+        </ul>
+      </description>
+    </release>
     <release version="v6.78" date="2023-03-13">
       <description>
         <p>The following components were updated:</p>
         <ul>
-          <li>- FX</li>
-          <li>- MIDI editor</li>
-          <li>- Render</li>
-          <li>- Actions</li>
-          <li>- MIDI</li>
-          <li>- Project tabs</li>
-          <li>- Snap</li>
-          <li>- Track panels</li>
-          <li>- Vertical zoom</li>
-          <li>- VST</li>
-          <li>- Windows</li>
+          <li>FX.</li>
+          <li>MIDI editor</li>
+          <li>Render</li>
+          <li>Actions</li>
+          <li>MIDI</li>
+          <li>Project tabs</li>
+          <li>Snap</li>
+          <li>Track panels</li>
+          <li>Vertical zoom</li>
+          <li>VST</li>
+          <li>Windows</li>
         </ul>
       </description>
     </release>
