@@ -24,6 +24,40 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="v6.80" date="2023-05-27">
+      <description>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>CLAP</li>
+          <li>Command line</li>
+          <li>FX.</li>
+          <li>macOS</li>
+          <li>MIDI</li>
+          <li>MP3</li>
+          <li>ReaScript</li>
+          <li>Render</li>
+          <li>VST</li>
+          <li>Actions</li>
+          <li>Arrange</li>
+          <li>Audio Units</li>
+          <li>Automation items</li>
+          <li>Customize menu/toolbar</li>
+          <li>Handscroll/zoom</li>
+          <li>Linux</li>
+          <li>Location</li>
+          <li>Media explorer</li>
+          <li>Metadata</li>
+          <li>Mixer</li>
+          <li>ReaControlMIDI</li>
+          <li>Regions</li>
+          <li>Searching</li>
+          <li>Takes</li>
+          <li>Track panels</li>
+          <li>Video</li>
+          <li>Windows</li>
+        </ul>
+      </description>
+    </release>
     <release version="v6.79" date="2023-04-23">
       <description>
         <p>The following components were updated:</p>
@@ -44,8 +78,6 @@
           <li>IDEs</li>
           <li>Media Explorer</li>
           <li>Menus</li>
-          <li>MIDI epxort</li>
-          <li>MIDI export</li>
           <li>Notation</li>
           <li>Pencil drawing</li>
           <li>Pin connector window</li>
