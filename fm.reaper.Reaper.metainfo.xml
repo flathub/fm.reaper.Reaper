@@ -28,33 +28,6 @@
       <description>
         <p>The following components were updated:</p>
         <ul>
-          <li>Accessibility</li>
-          <li>Actions window</li>
-          <li>Import</li>
-          <li>MIDI</li>
-          <li>ARA</li>
-          <li>AU.</li>
-          <li>Command line</li>
-          <li>Custom menus/toolbars</li>
-          <li>FX.</li>
-          <li>Linux</li>
-          <li>macOS</li>
-          <li>Media items</li>
-          <li>Metadata</li>
-          <li>ReaSurroundPan</li>
-          <li>Save as</li>
-          <li>Silence removal</li>
-          <li>Track icons</li>
-          <li>Video</li>
-          <li>API</li>
-        </ul>
-      </description>
-    </release>
-  <releases>
-    <release version="v6.81" date="2023-07-04">
-      <description>
-        <p>The following components were updated:</p>
-        <ul>
           <li>Project bay</li>
           <li>ReaScript</li>
           <li>Actions</li>
@@ -78,6 +51,33 @@
           <li>Tabs</li>
           <li>Take</li>
           <li>Windows</li>
+          <li>API</li>
+        </ul>
+      </description>
+    </release>
+  <releases>
+    <release version="v6.81" date="2023-07-04">
+      <description>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>Accessibility</li>
+          <li>Actions window</li>
+          <li>Import</li>
+          <li>MIDI</li>
+          <li>ARA</li>
+          <li>AU.</li>
+          <li>Command line</li>
+          <li>Custom menus/toolbars</li>
+          <li>FX.</li>
+          <li>Linux</li>
+          <li>macOS</li>
+          <li>Media items</li>
+          <li>Metadata</li>
+          <li>ReaSurroundPan</li>
+          <li>Save as</li>
+          <li>Silence removal</li>
+          <li>Track icons</li>
+          <li>Video</li>
           <li>API</li>
         </ul>
       </description>
