@@ -23,7 +23,7 @@
       <image>https://www.reaper.fm/v6img/ss_persp_v63.jpg</image>
     </screenshot>
   </screenshots>
-    <releases>
+  <releases>
     <release version="v6.82" date="2023-08-23">
       <description>
         <p>The following components were updated:</p>
@@ -55,7 +55,6 @@
         </ul>
       </description>
     </release>
-  <releases>
     <release version="v6.81" date="2023-07-04">
       <description>
         <p>The following components were updated:</p>
