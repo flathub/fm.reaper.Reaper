@@ -24,6 +24,37 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="v6.82" date="2023-08-23">
+      <description>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>Project bay</li>
+          <li>ReaScript</li>
+          <li>Actions</li>
+          <li>Effects</li>
+          <li>JSFX</li>
+          <li>Localization</li>
+          <li>macOS</li>
+          <li>Metadata</li>
+          <li>Mouse</li>
+          <li>Project tabs</li>
+          <li>Accessibility</li>
+          <li>ARA</li>
+          <li>Batch converter</li>
+          <li>CLAP</li>
+          <li>LV2</li>
+          <li>MIDI editor</li>
+          <li>Mixer</li>
+          <li>Navigator</li>
+          <li>Preferences</li>
+          <li>Raw PCM media</li>
+          <li>Tabs</li>
+          <li>Take</li>
+          <li>Windows</li>
+          <li>API</li>
+        </ul>
+      </description>
+    </release>
     <release version="v6.81" date="2023-07-04">
       <description>
         <p>The following components were updated:</p>
