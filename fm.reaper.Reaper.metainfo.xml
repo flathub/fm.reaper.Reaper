@@ -26,424 +26,63 @@
   <releases>
     <release date="2023-10-16" version="v7.001">
       <description>
-        <p>Several People Are Typing</p>
-        <em>v7.001:</em>
+        <p>REAPER 7.001: Several People Are Typing</p>
+        <p>The following components were updated:</p>
         <ul>
-          <li>MIDI editor: fix setting channel dropdown</li>
-          <li>Default theme updates, macOS font tweaks</li>
-        </ul>
-        <em>Lanes/Comping:</em>
-        <ul>
-          <li>support fixed-lane tracks, to arrange media items in fixed lanes</li>
-          <li>support setting individual lanes to play back or not play back</li>
-          <li>support automatically recording overlapping media to separate lanes, either layered (multiple lanes play back at once) or not (only the last recorded lane plays back)</li>
-          <li>v6 option for overlapping recording to create new media items is replaced by option to add lanes; playback behavior is identical to v6</li>
-          <li>support minimizing, maximizing, or collapsing track lanes</li>
-          <li>support adding lanes by dragging media to a hashed 'parking area', automatically removing empty lanes</li>
-          <li>support naming individual lanes, resizing lane name area</li>
-          <li>support reordering fixed lanes by dragging lane buttons up/down</li>
-          <li>support targeting a specific lane or free item position when pasting media items and razor edits</li>
-          <li>add many actions to support editing, manipulating, playing back, comping, and coloring items in fixed lanes</li>
-          <li>add mouse modifier contexts for fixed lane header buttons, fixed lane comp areas (including click/double-click contexts)</li>
-          <li>add many theme elements for fixed lane and comp area display</li>
-          <li>support recording into specific lanes or new lanes</li>
-          <li>add actions to explode items in lanes to tracks, implode items on tracks to lanes, optionally creating comp areas</li>
-          <li>existing actions to switch active take (T/shift-T by default) will switch the comp area under the mouse up or down as well</li>
-          <li>add import option to add multiple media on fixed lanes on a single track</li>
-          <li>tracks that are grouped for media/razor edits are also grouped for lane actions and edits</li>
-          <li>when exiting fixed lane view, lanes that are not playing are hidden; hidden lanes are restored when re-entering fixed lane view</li>
-          <li>create a comping lane by double-clicking or right-clicking the lane button, or clicking the comping button on a razor edit, or using arrange view mouse modifiers</li>
-          <li>while comping, mouse-drag in source lanes to create comp areas; comped media is copied to the comping lane</li>
-          <li>comp areas create editable copies of source media</li>
-          <li>mouse modifiers for comp areas include behaviors to change comp area source lane, limit comp areas to media item edges, move media items along with comp areas, attach comp area edges to adjacent comp area edges, create time selection including pre-roll/post-roll for previewing</li>
-          <li>while comping, edits to media item edges/fades/crossfades in comping lane will also affect comp areas (comp areas fades/crossfades can be individually edited this way)</li>
-          <li>while comping, edits that cause comping-lane media to go out of sync with source-lane media will display a re-comp button on the comping lane media</li>
-          <li>clicking re-comp button will copy edited media to a new source lane, to use as an alternative edit along with existing source media</li>
-          <li>optionally support editing source media while comping (edits immediately affect the comping lane)</li>
-          <li>add options to automatically create comp areas for new recording while comping</li>
-          <li>ensure that new recording is in the same lane for all grouped tracks</li>
-          <li>when recording with time selection auto-punch into a new lane, optionally add the entire new recording, but comp only within the time selection</li>
-        </ul>
-        <em>Defaults:</em>
-        <ul>
-          <li>display media item volume knob, FX button, mute button by default</li>
-          <li>enable preference to record media, copy imported media to project media directory by default</li>
-          <li>MIDI editor defaults to one editor per project</li>
-          <li>default to OpenGL for video output</li>
-          <li>video media defaults to low-resolution audio peaks, for improved responsiveness</li>
-          <li>disable automatic fadein/fadeout for imported media by default</li>
-          <li>disable 'right-click deletes notes' MIDI editor preference by default</li>
-          <li>mouse-drag on crossfade intersection moves the split point left/right by default, rather than adjusting fade curves</li>
-          <li>use project peaks directory by default</li>
-          <li>ReaComp defaults to 4:1 compression ratio</li>
-          <li>ReaEQ adds default HPF band 5 (disabled by default)</li>
-          <li>ReaEQ changes default bandwidth for low/high shelf</li>
-          <li>built-in sliders respond to mouse click anywhere in the slider window, not just within the thumb image</li>
-        </ul>
-        <em>FX:</em>
-        <ul>
-          <li>support processing multiple plug-ins in parallel</li>
-          <li>support FX containers, sub-chains of FX with configurable input/output/processing channel sizes, configurable parameter mappings</li>
-          <li>Containers support configurable channel feedback</li>
-          <li>Containers support internal modulation of parameters, using parent modulation/automation as baseline for any container-local modulation</li>
-          <li>flush plug-in buffers when bypassing VST or CLAP plugins</li>
-          <li>always run track/track FX while playback is stopped, if the UI is visible</li>
-          <li>always run input FX if the UI is visible</li>
-          <li>optionally run FX when muted if the UI is visible</li>
-          <li>fix many last-touched-parameter actions to work with per-take, input FX</li>
-          <li>show more descriptive names for track/take channels in pin connector dialog</li>
-          <li>support parameter modulation for input FX, monitor FX</li>
-        </ul>
-        <em>API/ReaScript:</em>
-        <ul>
-          <li>support ShowConsoleMsg() from multiple threads</li>
-          <li>add actions to toggle console window visiblity, clear console window; console window log persists when closing/reopening window</li>
-          <li>add CleanItemLanes(), to recalculate fixed lane arrangement and remove unused lanes at bottom of track after moving or editing media items</li>
-          <li>add FX_GetNamedConfigParm(container_count) for getting number of FX in container</li>
-          <li>TrackFX_/TakeFX_ APIs can access container and sub-container FX via documented addressing scheme</li>
-          <li>preserve FXID when cutting/pasting FX, saving/loading RfxChain</li>
-          <li>add EnumInstalledFX()</li>
-          <li>add GetTouchedOrFocusedFX(), support addressing FX containers, deprecate GetFocusedFX2() and GetLastTouchedFX()</li>
-          <li>add MIDIEditorFlagsForTrack(), to get/set pitchwheel range and snap settings</li>
-          <li>add set/getNamedConfigParm container_map.add, param.X.container_map.*</li>
-          <li>add support for GetSetMediaTrackInfo() I_NUMFIXEDLANES, I_LANESCOLLAPSED, C_LANEPLAYS, I_SPACER</li>
-          <li>add support for GetSetMediaItemInfo() I_FIXEDLANE, B_FIXEDLANE_HIDDEN</li>
-          <li>much faster API validation for takes and envelopes</li>
-          <li>fix gfx.drawstr() on multiline content drawing with negative Y offset</li>
-          <li>GetTrackFromPoint() also returns the fixed lane under the mouse, if applicable</li>
-          <li>gfx.setcursor() can specify named theme cursors without specifying numeric ID</li>
-          <li>support using full (unlocalized) action description in Get/SetMouseModifier(), example: SetMouseModifier('Media item left drag', 0, 'Move item')</li>
-          <li>update from Lua 5.3.5 to Lua 5.4.6 (may affect existing ReaScripts)</li>
-          <li>update TakeFX/TrackFX_Get/SetPinMappings() to support more than 64 mappings</li>
-          <li>add GetSetTrackGroupMembership() support for MEDIA_EDIT_LEAD, MEDIA_EDIT_FOLLOW</li>
-        </ul>
-        <em>MIDI Editor:</em>
-        <ul>
-          <li>add option for editor selection to follow track selection in arrange view</li>
-          <li>add option to set the channel for new events when selecting a single note or CC event (improves MPE editing support)</li>
-          <li>support vertical zoom/scroll in CC lanes</li>
-          <li>support pitchwheel lane semitone range, snap-to-semitone</li>
-          <li>improve support for renaming CC lanes</li>
-          <li>add option to prevent mouse edits of single CC events from moving past other CC events</li>
-          <li>add preference to display empty space at top/bottom of CC lanes</li>
-          <li>display time/value in CC lanes</li>
-          <li>improve options to allow/disallow CC curve shapes in sustain, bank, LSB lanes</li>
-          <li>fix deselecting CC events when clicking lane outside envelope, when preference enabled to draw/edit immediately on mouse click</li>
-          <li>if 'show only events that pass filter' disabled, allow setting any channel for new events</li>
-          <li>remove snap-to-center for mouse edits in CC lanes (double-click a value to center it)</li>
-          <li>when switching active MIDI item, adjust vertical scroll if all notes would be offscreen</li>
-          <li>when using one editor per project or per track, reopen editor at the same screen location for all MIDI items that share the editor</li>
-        </ul>
-        <em>Media Items:</em>
-        <ul>
-          <li>allow mouse editing take markers by clicking anywhere within the text, as well as on the marker itself</li>
-          <li>avoid snapping to a grid point that is in a different direction from the mouse move</li>
-          <li>do not autoscroll when adjusting media item contents</li>
-          <li>improve interactions between auto-crossfade project setting and crossfade preferences when trimming content behind media item edits</li>
-          <li>limit overlap and crossfade when splitting at time selection or razor edit</li>
-          <li>improve multiple selection behavior when editing crossfade or shared media item edges</li>
-          <li>limit crossfade edits consistently when moving left or right</li>
-          <li>show tooltip when hovering over pooled MIDI button</li>
-          <li>store fade-in/fade-out length with greater precision in project files</li>
-          <li>support healing items even if one or both contains empty takes</li>
-          <li>support healing splits even if items do not have the same active take lane</li>
-          <li>when option enabled to offset overlapping media items vertically, arrange media items that start at the same time in the order they were created</li>
-        </ul>
-        <em>Preferences:</em>
-        <ul>
-          <li>add new Envelope Colors preferences page, support custom envelope colors based on envelope name</li>
-          <li>add new Project/Backups preferences page</li>
-          <li>add new Item Fade Defaults, Item Loop Defaults preferences pages</li>
-          <li>add new ARA preferences page</li>
-          <li>add new Scrub/Jog preferences page</li>
-          <li>add new Zoom/Scroll preferences page</li>
-          <li>add button to Preferences/Project to open project settings dialog</li>
-          <li>add preference for envelope lane height as a percentage of track height, when zooming vertically (default 50%)</li>
-          <li>add preference for adjusting scrub/jog volume gain</li>
-          <li>add preferences for default fixed lane track configuration (big/small lanes, etc)</li>
-          <li>add preferences for crossfade behavior for various contexts (splitting, reording, etc)</li>
-          <li>add preferences for track meter display defaults</li>
-          <li>remember last selected mouse modifier context when closing/restarting REAPER</li>
-        </ul>
-        <em>Zoom/Scroll:</em>
-        <ul>
-          <li>consistently support small control device moves, such as from a trackpad or trackball</li>
-          <li>map shift+alt+mousewheel to 'scroll vertically one page' by default</li>
-          <li>rename actions to scroll horizontally/vertically to match behavior (scrolling forward vs reversed)</li>
-          <li>do not change envelope height when resizing tracks via mouse drag</li>
-          <li>support vertical scroll step as percentage of track height or percentage of arrange view height</li>
-          <li>add actions to toggle track zoom height to default; cycle track zoom height between minimum, default, and maximum</li>
-          <li>add actions to toggle or cycle track zoom to maximum, even if maximum is not 100% of arrange view height</li>
-          <li>if maximum vertical zoom preference is 100% or less, keep the focused track entirely onscreen while zooming</li>
-          <li>if track height is greater than screen height, mousewheel scroll on TCP scrolls by screen height</li>
-          <li>allow mouse-centered vertical zoom to target the interior of a track</li>
-        </ul>
-        <em>ARA:</em>
-        <ul>
-          <li>support pooling edits by source media, so edits can automatically affect all media items that share the same source media</li>
-          <li>support pooling or not pooling ARA edits by default (old projects will always load with edits unpooled)</li>
-          <li>pooled edits will not be preserved when loading a project created with REAPER 7+ into an older version of REAPER (the old version will show a 'project token not recognized: ARAMOD' warning)</li>
-          <li>display pooled edit button for media items that share ARA edits (similar to pooled MIDI behavior)</li>
-          <li>list analyzed media files and pooled/unpooled count in FX + menu</li>
-          <li>add actions to select media items with pooled ARA edits, remove items from edit pool, return items to edit pool</li>
-          <li>improve stability of ARA edits when editing media items (splits, copies, cut/paste, etc)</li>
-          <li>fix possible hang when ARA plugin analyzes media with negative start-in-source offset</li>
-        </ul>
-        <em>Actions:</em>
-        <ul>
-          <li>add action to color all takes that share the same source media with the same color</li>
-          <li>add action to select all media items that use the same source media</li>
-          <li>add action to paste tracks/items at mouse position</li>
-          <li>prevent healing an unlooped item with a copy of itself</li>
-          <li>actions to move items up/down/top/bottom will act on razor edit areas, if any exist</li>
-          <li>add actions to apply first track or take FX to items (can be used to render ARA FX)</li>
-        </ul>
-        <em>Actions Window:</em>
-        <ul>
-          <li>hide actions like 'set default mouse modifier for [context] to [action]' from actions list, instead use ReaScript SetMouseModifier('context_name', keycombo, 'action_name'), deprecated actions will still work though</li>
-          <li>add meta-actions to allow running (some) actions in background project tab contexts</li>
-          <li>allow setting a parameter value for keys bound to MIDI CC/mousewheel actions</li>
-          <li>show custom action toggle state as enabled/disabled if all component actions that report a toggle state are enabled/disabled</li>
-          <li>store descriptive comments about shortcuts in ReaperKeyMap/reaper-kb.ini</li>
-          <li>add 'Options' button to action window</li>
-          <li>add menu items to import, export, reset, clear keyboard shortcuts for the current section</li>
-        </ul>
-        <em>Render:</em>
-        <ul>
-          <li>inform user when saved render format is not available</li>
-          <li>fix persistence of preference to embed XMP markers</li>
-          <li>respect preference to close render window when done, even when normalizing (but leave the window open when dry run rendering regardless of the preference)</li>
-          <li>support forcing mono/stereo/multichannel render for master mix via region render matrix</li>
-          <li>support rendering raw PCM (.sd2), including sidecar definition file</li>
-          <li>support marker/region wildcards consisting of separated name=value pairs using $marker(name)[separator] and $region(name)[separator] (see wildcard help)</li>
-        </ul>
-        <em>Track Folders:</em>
-        <ul>
-          <li>add preference to hide tracks in a folder when the folder is fully collapsed</li>
-          <li>add option for track folder collapse button to cycle child track heights between various combinations of normal-sized, small, collapsed, and hidden</li>
-          <li>add action to show/hide children of selected folder tracks</li>
-          <li>consistently refer to collapsed folders as 'collapsed' rather than 'compacted'</li>
-          <li>add actions, menu items to move tracks to new or existing folder track</li>
-          <li>gray out folder tracks in track context menu if all selected tracks are already within that folder</li>
-          <li>when inserting tracks after a folder whose children are all hidden, insert after children</li>
-        </ul>
-        <em>Backups:</em>
-        <ul>
-          <li>add configuration for path to auto-save unsaved projects</li>
-          <li>default to saving up to 50 timestamped projects in Backups directory for new users</li>
-          <li>optionally save timestamped backup projects to Backups directory, auto-saved projects to AutoSaves directory</li>
-          <li>optionally keep last X copies or X unique days of copies of timestamped backups</li>
-        </ul>
-        <em>FX Oversampling:</em>
-        <ul>
-          <li>add preference to auto-disable oversampling for record arm-affected tracks</li>
-          <li>avoid subsample delays in signal when delay compensating</li>
-          <li>fix slight errors in passthrough MIDI timing when using per-instance oversampling and latency compensation</li>
-          <li>improve accuracy of timing information passed to plug-ins when using chain oversampling</li>
-        </ul>
-        <em>Metadata:</em>
-        <ul>
-          <li>support multi-line render metadata (right-click value cell to open multi-line editor)</li>
-          <li>support unsynchronized lyrics metadata via ID3 and VORBIS tags</li>
-          <li>cancel metadata edit entry box when user scrolls metadata list</li>
-          <li>attempt to parse XMP markers for terse display in media source properties dialog</li>
-        </ul>
-        <em>MIDI:</em>
-        <ul>
-          <li>support up to 128 MIDI buses per track</li>
-          <li>add action to send explicit note-off messages for every channel/pitch combination to every MIDI output and plugin</li>
-          <li>improve MIDI device preferences pane</li>
-          <li>do not automatically re-color MIDI media items when doing pooled copy</li>
-        </ul>
-        <em>MIDI Devices:</em>
-        <ul>
-          <li>support up to 128 input/output devices</li>
-          <li>add ability to create multiple native MIDI loopback devices (single audio block delay)</li>
-          <li>allow ignoring devices to prevent them from using up device ID space</li>
-          <li>add per-device option to not warn when unable to open device</li>
-        </ul>
-        <em>MIDI Quantize:</em>
-        <ul>
-          <li>automatically quantize media content start position to PPQ when quantizing MIDI</li>
-          <li>reset quantization for unselected notes when switching from 'all notes' to 'selected notes' in quantize dialog</li>
-          <li>when creating new items, always snap media item position to PPQ</li>
-          <li>improve behavior of no-chase playback modes to handle media items with non-quantized starting positions</li>
-        </ul>
-        <em>Mouse Modifiers:</em>
-        <ul>
-          <li>add multiple arrange view mouse modifier override sections, to define new behaviors when left-mouse-dragging in arrange view</li>
-          <li>set override A to marquee selection behaviors, override B to razor edit behaviors, override C to comping behaviors, override D to time selection behaviors by default (all are fully customizable though)</li>
-          <li>add actions, toolbar buttons to activate/momentarily activate/toggle/clear mouse modifier overrides</li>
-          <li>add menu action to export modifiers for the current context as a ReaScript</li>
-          <li>support user-defined custom toolbar button tooltip for arrange view override contexts</li>
-        </ul>
-        <em>Project:</em>
-        <ul>
-          <li>changing autocrossfade or overlapping-recording options also sets default setting for new projects</li>
-          <li>use HMSF if set as a secondary project time unit</li>
-          <li>show play/record indicators for background tabs</li>
-          <li>add actions to reorder project tabs, actions to switch to specific or previously-selected tabs</li>
-        </ul>
-        <em>Recording:</em>
-        <ul>
-          <li>display loop counter during recording</li>
-          <li>optionally apply autocrossfade when new recording overlaps existing items and adding takes</li>
-          <li>optionally apply autocrossfade when loop-punch recording and adding takes</li>
-          <li>fix aligning takes when recording pass starts in the middle of a looped section</li>
-          <li>when loop recording, do not split recorded media even if a full loop pass was not recorded</li>
-        </ul>
-        <em>Track Spacers:</em>
-        <ul>
-          <li>add support for customizable spacers between tracks</li>
-          <li>display track spacers in mixer when mixer tracks are displayed in the same order as TCP</li>
-          <li>when multiple contiguous tracks are selected, spacers will be added at the start and end of the set</li>
-          <li>support moving/copying track spacers with mouse, dragging tracks to before/after/within spacers</li>
-        </ul>
-        <em>Video:</em>
-        <ul>
-          <li>add option to disable video per-media-item</li>
-          <li>optionally display video from background projects if current project lacks video</li>
-          <li>support project setting for YUV preview/conversion gamut: BT.601 (previous versions), BT.709, BT.2020</li>
-          <li>add preference to use standard (accessible) OS editing controls for video code</li>
-        </ul>
-        <em>WALTER:</em>
-        <ul>
-          <li>themes can create custom controls by using 'custom tcp.custom.xyz [label] [action ID] [accessibility description] [button_image_name]' in layouts</li>
-          <li>custom controls can be text fields or buttons, may support .font, .color, .margin</li>
-          <li>add various scalars/elements/images</li>
-          <li>add warnings, enable via 'warnings all' or 'warnings pedantic' line (only supported when loading a non-zipped theme)</li>
-        </ul>
-        <em>Audio:</em>
-        <ul>
-          <li>support up to 128 channels per track, 128 channels of I/O per plug-in</li>
-          <li>allow mapping ReaRoute/loopback devices as regular channels</li>
-        </ul>
-        <em>Batch Converter:</em>
-        <ul>
-          <li>allow user-entered file extension if it is compatible with the format (.m4v for .mp4, etc)</li>
-          <li>correct extension handling when option enabled to overwrite source files</li>
-        </ul>
-        <em>CLAP Plugins:</em>
-        <ul>
-          <li>allow user-entered file extension if it is compatible with the format (.m4v for .mp4, etc)</li>
-          <li>correct extension handling when option enabled to overwrite source files</li>
-        </ul>
-        <em>Color Theme:</em>
-        <ul>
-          <li>new Default 7.0 theme</li>
-          <li>add preference/theme element for small themed indicator on selected media items</li>
-          <li>add theme elements for various fixed lane display features (buttons, text, etc)</li>
-        </ul>
-        <em>FX Sidechain:</em>
-        <ul>
-          <li>allow drag/drop sidechain creation to FX in containers, floating windows</li>
-          <li>when creating sidechain via drag/drop to FX, always add/route to new track channels, reconfigure pin mappings for sidechain if FX has 4 inputs</li>
-        </ul>
-        <em>Grouping:</em>
-        <ul>
-          <li>add option (enabled by default) for track media item grouping to affect only items that start and end at the same time (rather than any enclosed media item)</li>
-          <li>improve behavior when splitting media items on grouped tracks</li>
-        </ul>
-        <em>JSFX:</em>
-        <ul>
-          <li>add ext_gr_meter to support reporting gain reduction to the host (set to non-positive values in @init and @block)</li>
-          <li>make output metering pre-wet/dry/delta-solo</li>
-          <li>support plug-in defined compile-time configuration parameters</li>
-        </ul>
-        <em>Loopback:</em>
-        <ul>
-          <li>add audio loopback support (Preferences/Audio) for up to 256 channels</li>
-          <li>when recording from loopback MIDI/audio channels, do not compensate audio device latency</li>
-        </ul>
-        <em>macOS:</em>
-        <ul>
-          <li>improve menu item modifier descriptions for various menus</li>
-          <li>optionally display last user-run action in REAPER title bar</li>
-        </ul>
-        <em>Meters:</em>
-        <ul>
-          <li>add per-track option to display gain reduction from VST or JSFX plug-ins that report gain reduction to the host</li>
-          <li>add gain reduction metering preferences in Appearance/Track Control Panels</li>
-        </ul>
-        <em>Multiproject:</em>
-        <ul>
-          <li>if =REF markers specified in both projects, use as a manual synchronization point</li>
-          <li>use project time offsets to synchronize video and playback between project tabs</li>
-        </ul>
-        <em>Pitch Shift/Timestretch:</em>
-        <ul>
-          <li>add multi-mono and multi-stereo options for applicable algorithms</li>
-          <li>support more than 48 channels with Elastique</li>
-        </ul>
-        <em>Takes:</em>
-        <ul>
-          <li>add actions to mark previous recording pass for deletion, delete takes that are marked for deletion</li>
-          <li>avoid potential crash when editing take markers and media item source file is not available</li>
-        </ul>
-        <em>Tempo/Time Signature:</em>
-        <ul>
-          <li>inserting time at start of project uses initial tempo marker rather than project tempo setting</li>
-          <li>if project timebase for tempo/time signature envelope is set to beats, action to insert time will preserve existing tempo/time signature changes</li>
-        </ul>
-        <em>Toolbars:</em>
-        <ul>
-          <li>support optional animation or blinking for toolbar buttons</li>
-          <li>animate ripple-edit, mouse modifier override toolbar buttons by default</li>
-          <li>support up to 32 main toolbars, 16 MIDI toolbars</li>
-        </ul>
-        <em>Transport:</em>
-        <ul>
-          <li>add support for Measures.Beats as secondary time unit</li>
-          <li>when parsing user-input time, always treat 8-digit numbers as hhmmssff</li>
-        </ul>
-        <em>Windows:</em>
-        <ul>
-          <li>do not try to style-match tab-child windows</li>
-          <li>update manifest to declare UAC configuration and compatibility for new Windows 8+ features (improves support for some plug-ins)</li>
-        </ul>
-        <em>Click Source:</em>
-        <ul>
-          <li>fix glitch at start of playback with take FX that use PDC</li>
-        </ul>
-        <em>Dynamic Split:</em>
-        <ul>
-          <li>properly handle leading/trailing pad when splitting grouped tracks</li>
-        </ul>
-        <em>JSFX/ReaScript/Video:</em>
-        <ul>
-          <li>% (modulus) operator supports 64-bit values on arm64</li>
-        </ul>
-        <em>Keyboard:</em>
-        <ul>
-          <li>add multiple alternate main keyboard sections, add actions to switch between them persistently or momentarily</li>
-        </ul>
-        <em>License:</em>
-        <ul>
-          <li>display license valid-through version in About/Purchase window</li>
-        </ul>
-        <em>Raw PCM Media:</em>
-        <ul>
-          <li>add button to source properties to reload media after editing .rsrc sidecar file</li>
-        </ul>
-        <em>Razor Edit:</em>
-        <ul>
-          <li>copy selected part of fade-in/fade-out if any part of the fade is included in the razor edit</li>
-        </ul>
-        <em>RX2:</em>
-        <ul>
-          <li>fix memory leak when exploding items</li>
-        </ul>
-        <em>Samplerate Conversion:</em>
-        <ul>
-          <li>update r8brain-free to v6.3</li>
-        </ul>
-        <em>Super8:</em>
-        <ul>
-          <li>support 1-48 channels (default 8)</li>
-        </ul>
-        <em>Web Control Surface:</em>
-        <ul>
-          <li>reduce web server latency</li>
+          <li>v7.001</li>
+          <li>Lanes/Comping</li>
+          <li>Defaults</li>
+          <li>FX.</li>
+          <li>API/ReaScript</li>
+          <li>MIDI Editor</li>
+          <li>Media Items</li>
+          <li>Preferences</li>
+          <li>Zoom/Scroll</li>
+          <li>ARA</li>
+          <li>Actions</li>
+          <li>Actions Window</li>
+          <li>Render</li>
+          <li>Track Folders</li>
+          <li>Backups</li>
+          <li>FX Oversampling</li>
+          <li>Metadata</li>
+          <li>MIDI</li>
+          <li>MIDI Devices</li>
+          <li>MIDI Quantize</li>
+          <li>Mouse Modifiers</li>
+          <li>Project</li>
+          <li>Recording</li>
+          <li>Track Spacers</li>
+          <li>Video</li>
+          <li>WALTER</li>
+          <li>Audio</li>
+          <li>Batch Converter</li>
+          <li>CLAP Plugins</li>
+          <li>Color Theme</li>
+          <li>FX Sidechain</li>
+          <li>Grouping</li>
+          <li>JSFX</li>
+          <li>Loopback</li>
+          <li>macOS</li>
+          <li>Meters</li>
+          <li>Multiproject</li>
+          <li>Pitch Shift/Timestretch</li>
+          <li>Takes</li>
+          <li>Tempo/Time Signature</li>
+          <li>Toolbars</li>
+          <li>Transport</li>
+          <li>Windows</li>
+          <li>Click Source</li>
+          <li>Dynamic Split</li>
+          <li>JSFX/ReaScript/Video</li>
+          <li>Keyboard</li>
+          <li>License</li>
+          <li>Raw PCM Media</li>
+          <li>Razor Edit</li>
+          <li>RX2</li>
+          <li>Samplerate Conversion</li>
+          <li>Super8</li>
+          <li>Web Control Surface</li>
         </ul>
       </description>
     </release>
