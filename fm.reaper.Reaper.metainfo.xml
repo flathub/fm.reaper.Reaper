@@ -24,7 +24,69 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="v6.82" date="2023-08-23">
+    <release date="2023-10-16" version="v7.001">
+      <description>
+        <p>REAPER 7.001: Several People Are Typing</p>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>v7.001</li>
+          <li>Lanes/Comping</li>
+          <li>Defaults</li>
+          <li>FX.</li>
+          <li>API/ReaScript</li>
+          <li>MIDI Editor</li>
+          <li>Media Items</li>
+          <li>Preferences</li>
+          <li>Zoom/Scroll</li>
+          <li>ARA</li>
+          <li>Actions</li>
+          <li>Actions Window</li>
+          <li>Render</li>
+          <li>Track Folders</li>
+          <li>Backups</li>
+          <li>FX Oversampling</li>
+          <li>Metadata</li>
+          <li>MIDI</li>
+          <li>MIDI Devices</li>
+          <li>MIDI Quantize</li>
+          <li>Mouse Modifiers</li>
+          <li>Project</li>
+          <li>Recording</li>
+          <li>Track Spacers</li>
+          <li>Video</li>
+          <li>WALTER</li>
+          <li>Audio</li>
+          <li>Batch Converter</li>
+          <li>CLAP Plugins</li>
+          <li>Color Theme</li>
+          <li>FX Sidechain</li>
+          <li>Grouping</li>
+          <li>JSFX</li>
+          <li>Loopback</li>
+          <li>macOS</li>
+          <li>Meters</li>
+          <li>Multiproject</li>
+          <li>Pitch Shift/Timestretch</li>
+          <li>Takes</li>
+          <li>Tempo/Time Signature</li>
+          <li>Toolbars</li>
+          <li>Transport</li>
+          <li>Windows</li>
+          <li>Click Source</li>
+          <li>Dynamic Split</li>
+          <li>JSFX/ReaScript/Video</li>
+          <li>Keyboard</li>
+          <li>License</li>
+          <li>Raw PCM Media</li>
+          <li>Razor Edit</li>
+          <li>RX2</li>
+          <li>Samplerate Conversion</li>
+          <li>Super8</li>
+          <li>Web Control Surface</li>
+        </ul>
+      </description>
+    </release>
+    <release date="2023-08-23" version="v6.82">
       <description>
         <p>The following components were updated:</p>
         <ul>
@@ -55,7 +117,7 @@
         </ul>
       </description>
     </release>
-    <release version="v6.81" date="2023-07-04">
+    <release date="2023-07-04" version="v6.81">
       <description>
         <p>The following components were updated:</p>
         <ul>
@@ -81,7 +143,7 @@
         </ul>
       </description>
     </release>
-    <release version="v6.80" date="2023-05-27">
+    <release date="2023-05-27" version="v6.80">
       <description>
         <p>The following components were updated:</p>
         <ul>
@@ -115,7 +177,7 @@
         </ul>
       </description>
     </release>
-    <release version="v6.79" date="2023-04-23">
+    <release date="2023-04-23" version="v6.79">
       <description>
         <p>The following components were updated:</p>
         <ul>
@@ -157,7 +219,7 @@
         </ul>
       </description>
     </release>
-    <release version="v6.78" date="2023-03-13">
+    <release date="2023-03-13" version="v6.78">
       <description>
         <p>The following components were updated:</p>
         <ul>
@@ -176,10 +238,6 @@
       </description>
     </release>
   </releases>
-  <developer_name>
-    Cockos Incorporated
-  </developer_name>
-  <update_contact>
-    support@cockos.com
-  </update_contact>
+  <developer_name>Cockos Incorporated</developer_name>
+  <update_contact>support@cockos.com</update_contact>
 </component>
