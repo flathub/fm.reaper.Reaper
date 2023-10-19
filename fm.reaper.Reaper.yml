@@ -63,16 +63,16 @@ modules:
           - rm -rf /app/extra/export/share/reaper_linux_*
       - type: extra-data
         filename: reaper.tar.xz
-        url: https://www.reaper.fm/files/6.x/reaper682_linux_x86_64.tar.xz
-        sha256: dafb643a874c8f42462d0427e1af971f1a1d1d0aa99d25b579aeefe9a0bdb07a
-        size: 11705948
+        url: https://www.reaper.fm/files/7.x/reaper7001_linux_x86_64.tar.xz
+        sha256: ef68214cb97bb41fb10d997277b485641a4f86d3600ad497ba60127eaa104cfd
+        size: 12097892
         only-arches: [x86_64]
 
       - type: extra-data
         filename: reaper.tar.xz
-        url: https://www.reaper.fm/files/6.x/reaper682_linux_aarch64.tar.xz
-        sha256: 14135f5d39f1aaadb60a716b136cef7fa903cbfa7ff925ceceacfb252dc8746f
-        size: 10352064
+        url: https://www.reaper.fm/files/7.x/reaper7001_linux_aarch64.tar.xz
+        sha256: 1e3fe755265a0ab400dacfd6bdff4fb0ab425340419ef3ff16025fe838ebe020
+        size: 10830580
         only-arches: [aarch64]
 
       - type: script
