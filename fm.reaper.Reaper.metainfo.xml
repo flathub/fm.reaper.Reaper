@@ -24,6 +24,44 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release date="2023-11-07" version="v7.02">
+      <description>
+        <p>REAPER 7.02: Several People Are Typing</p>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>Lanes</li>
+          <li>Comp areas</li>
+          <li>JSFX</li>
+          <li>ReaScript</li>
+          <li>macOS</li>
+          <li>Media items</li>
+          <li>MIDI</li>
+          <li>Preferences</li>
+          <li>Razor edits</li>
+          <li>Super8</li>
+          <li>Track reordering</li>
+          <li>Track spacers</li>
+          <li>Accessibility</li>
+          <li>Actions</li>
+          <li>Color theme</li>
+          <li>Comping</li>
+          <li>FX.</li>
+          <li>Grouping</li>
+          <li>Metadata</li>
+          <li>MIDI editor</li>
+          <li>MIDI hardware</li>
+          <li>Mixer</li>
+          <li>ReaComp</li>
+          <li>ReaLimit</li>
+          <li>Theme</li>
+          <li>Toolbars</li>
+          <li>Track panels</li>
+          <li>Tracks</li>
+          <li>Virtual MIDI Keyboard</li>
+          <li>Windows</li>
+        </ul>
+      </description>
+    </release>
     <release date="2023-10-19" version="v7.01">
       <description>
         <p>REAPER 7.01: Several People Are Typing</p>
