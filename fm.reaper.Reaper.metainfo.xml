@@ -24,7 +24,38 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release date="2023-11-07" version="v7.02">
+    <release date="2023-11-07" version="v7.03">
+      <description>
+        <p>REAPER 7.03: Several People Are Typing</p>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>Lanes</li>
+          <li>ReaScript</li>
+          <li>Comp areas</li>
+          <li>Comping</li>
+          <li>Envelopes</li>
+          <li>FX containers</li>
+          <li>Keyboard sections</li>
+          <li>MIDI editor</li>
+          <li>Preferences</li>
+          <li>Razor edits</li>
+          <li>FX.</li>
+          <li>License import</li>
+          <li>macOS</li>
+          <li>Marquee</li>
+          <li>Menus</li>
+          <li>Navigator</li>
+          <li>Paste</li>
+          <li>Recording</li>
+          <li>Track reordering</li>
+          <li>Track spacers</li>
+          <li>Video</li>
+          <li>WALTER</li>
+          <li>Wildcards</li>
+        </ul>
+      </description>
+    </release>
+    <release date="2023-10-07" version="v7.02">
       <description>
         <p>REAPER 7.02: Several People Are Typing</p>
         <p>The following components were updated:</p>
