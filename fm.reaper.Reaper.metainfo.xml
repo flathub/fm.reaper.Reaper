@@ -24,6 +24,25 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release date="2023-11-12" version="v7.05">
+      <description>
+        <p>REAPER 7.05: Several People Are Typing</p>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>7.05</li>
+          <li>Comping</li>
+          <li>Lanes</li>
+          <li>Comp areas</li>
+          <li>FX containers</li>
+          <li>Accessibility</li>
+          <li>Actions</li>
+          <li>MIDI loopback</li>
+          <li>Theme</li>
+          <li>Tooltips</li>
+          <li>Undo</li>
+        </ul>
+      </description>
+    </release>
     <release date="2023-11-07" version="v7.03">
       <description>
         <p>REAPER 7.03: Several People Are Typing</p>
