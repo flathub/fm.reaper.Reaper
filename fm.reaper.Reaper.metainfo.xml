@@ -9,8 +9,12 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary=https://www.reaper.fm/dist-agreement.php</project_license>
   <description>
-    <p>REAPER is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.</p>
-    <p>Using REAPER you can import any audio and MIDI, synthesize, sample, compose, arrange, edit, mix, and master songs or any other audio projects. If you add a hardware audio interface and a microphone, you have a complete professional quality recording studio, suitable for recording anything from a soloist to a band to an orchestra.</p>
+    <p>REAPER is a complete digital audio production application for computers, offering a full
+      multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.</p>
+    <p>Using REAPER you can import any audio and MIDI, synthesize, sample, compose, arrange, edit,
+      mix, and master songs or any other audio projects. If you add a hardware audio interface and a
+      microphone, you have a complete professional quality recording studio, suitable for recording
+      anything from a soloist to a band to an orchestra.</p>
     <p>This is an unofficial version.</p>
   </description>
   <content_rating type="oars-1.0">
@@ -24,6 +28,47 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release date="2024-01-09" version="v7.08">
+      <p>REAPER 7.08: Bland Ballad Band</p>
+      <p>The following components were updated:</p>
+      <ul>
+        <li>Project bay</li>
+        <li>Lanes</li>
+        <li>ReaScript</li>
+        <li>FX</li>
+        <li>Metadata</li>
+        <li>MIDI</li>
+        <li>MIDI editor</li>
+        <li>Peaks building</li>
+        <li>Stretch markers</li>
+        <li>Take FX</li>
+        <li>Tracks</li>
+        <li>Video</li>
+        <li>Actions window</li>
+        <li>ARA</li>
+        <li>JSFX</li>
+        <li>Linux</li>
+        <li>Localization</li>
+        <li>Media items</li>
+        <li>Menus</li>
+        <li>Metronome</li>
+        <li>Mouse maps</li>
+        <li>Normalize</li>
+        <li>Razor edits</li>
+        <li>ReaScript/JSFX</li>
+        <li>Region manager</li>
+        <li>Regions</li>
+        <li>Retroactive MIDI record</li>
+        <li>Ruler</li>
+        <li>Tempo envelope</li>
+        <li>Toolbars</li>
+        <li>Undo</li>
+        <li>UTF-8</li>
+        <li>Virtual MIDI keyboard</li>
+        <li>VST</li>
+        <li>Windows</li>
+      </ul>
+    </release>
     <release date="2023-12-12" version="v7.07">
       <description>
         <p>REAPER 7.07: Bland Ballad Band</p>
