@@ -28,6 +28,41 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release date="2024-03-26" version="v7.12">
+      <p>REAPER 7.12: Occam's REAPER</p>
+      <p>The following components were updated:</p>
+      <ul>
+        <li>Lanes</li>
+        <li>Media explorer</li>
+        <li>Peaks</li>
+        <li>ReaScript</li>
+        <li>MIDI editor</li>
+        <li>Render</li>
+        <li>Accessibility</li>
+        <li>Actions</li>
+        <li>Default theme</li>
+        <li>Freeze</li>
+        <li>macOS</li>
+        <li>Media items</li>
+        <li>Metadata</li>
+        <li>Preferences</li>
+        <li>ARA</li>
+        <li>Automation</li>
+        <li>CLAP</li>
+        <li>Drag and drop</li>
+        <li>Grouping</li>
+        <li>Initialization</li>
+        <li>MIDI</li>
+        <li>Mouse modifiers</li>
+        <li>Notation editor</li>
+        <li>Project bay</li>
+        <li>Take markers</li>
+        <li>Toolbars</li>
+        <li>Tracks</li>
+        <li>Transport</li>
+        <li>Wildcards</li>
+      </ul>
+    </release>
     <release date="2024-01-09" version="v7.08">
       <p>REAPER 7.08: Bland Ballad Band</p>
       <p>The following components were updated:</p>
