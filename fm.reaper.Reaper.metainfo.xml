@@ -29,80 +29,105 @@
   </screenshots>
   <releases>
     <release date="2024-03-26" version="v7.12">
-      <p>REAPER 7.12: Occam's REAPER</p>
-      <p>The following components were updated:</p>
-      <ul>
-        <li>Lanes</li>
-        <li>Media explorer</li>
-        <li>Peaks</li>
-        <li>ReaScript</li>
-        <li>MIDI editor</li>
-        <li>Render</li>
-        <li>Accessibility</li>
-        <li>Actions</li>
-        <li>Default theme</li>
-        <li>Freeze</li>
-        <li>macOS</li>
-        <li>Media items</li>
-        <li>Metadata</li>
-        <li>Preferences</li>
-        <li>ARA</li>
-        <li>Automation</li>
-        <li>CLAP</li>
-        <li>Drag and drop</li>
-        <li>Grouping</li>
-        <li>Initialization</li>
-        <li>MIDI</li>
-        <li>Mouse modifiers</li>
-        <li>Notation editor</li>
-        <li>Project bay</li>
-        <li>Take markers</li>
-        <li>Toolbars</li>
-        <li>Tracks</li>
-        <li>Transport</li>
-        <li>Wildcards</li>
-      </ul>
+      <description>
+        <p>REAPER 7.12: Occam's REAPER</p>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>Lanes</li>
+          <li>Media explorer</li>
+          <li>Peaks</li>
+          <li>ReaScript</li>
+          <li>MIDI editor</li>
+          <li>Render</li>
+          <li>Accessibility</li>
+          <li>Actions</li>
+          <li>Default theme</li>
+          <li>Freeze</li>
+          <li>macOS</li>
+          <li>Media items</li>
+          <li>Metadata</li>
+          <li>Preferences</li>
+          <li>ARA</li>
+          <li>Automation</li>
+          <li>CLAP</li>
+          <li>Drag and drop</li>
+          <li>Grouping</li>
+          <li>Initialization</li>
+          <li>MIDI</li>
+          <li>Mouse modifiers</li>
+          <li>Notation editor</li>
+          <li>Project bay</li>
+          <li>Take markers</li>
+          <li>Toolbars</li>
+          <li>Tracks</li>
+          <li>Transport</li>
+          <li>Wildcards</li>
+        </ul>
+      </description>
+    </release>
+    <release date="2024-01-17" version="v7.09">
+      <description>
+        <p>REAPER 7.09: Bland Ballad Band</p>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>Lanes</li>
+          <li>Razor edits</li>
+          <li>Envelopes</li>
+          <li>FX</li>
+          <li>Glue</li>
+          <li>Input FX</li>
+          <li>JSFX</li>
+          <li>Jump to time</li>
+          <li>MIDI editor</li>
+          <li>Recording</li>
+          <li>Region manager</li>
+          <li>Track manager</li>
+          <li>Video</li>
+        </ul>
+      </description>
     </release>
     <release date="2024-01-09" version="v7.08">
-      <p>REAPER 7.08: Bland Ballad Band</p>
-      <p>The following components were updated:</p>
-      <ul>
-        <li>Project bay</li>
-        <li>Lanes</li>
-        <li>ReaScript</li>
-        <li>FX</li>
-        <li>Metadata</li>
-        <li>MIDI</li>
-        <li>MIDI editor</li>
-        <li>Peaks building</li>
-        <li>Stretch markers</li>
-        <li>Take FX</li>
-        <li>Tracks</li>
-        <li>Video</li>
-        <li>Actions window</li>
-        <li>ARA</li>
-        <li>JSFX</li>
-        <li>Linux</li>
-        <li>Localization</li>
-        <li>Media items</li>
-        <li>Menus</li>
-        <li>Metronome</li>
-        <li>Mouse maps</li>
-        <li>Normalize</li>
-        <li>Razor edits</li>
-        <li>ReaScript/JSFX</li>
-        <li>Region manager</li>
-        <li>Regions</li>
-        <li>Retroactive MIDI record</li>
-        <li>Ruler</li>
-        <li>Tempo envelope</li>
-        <li>Toolbars</li>
-        <li>Undo</li>
-        <li>UTF-8</li>
-        <li>Virtual MIDI keyboard</li>
-        <li>VST</li>
-        <li>Windows</li>
-      </ul>
+      <description>
+        <p>REAPER 7.08: Bland Ballad Band</p>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>Project bay</li>
+          <li>Lanes</li>
+          <li>ReaScript</li>
+          <li>FX</li>
+          <li>Metadata</li>
+          <li>MIDI</li>
+          <li>MIDI editor</li>
+          <li>Peaks building</li>
+          <li>Stretch markers</li>
+          <li>Take FX</li>
+          <li>Tracks</li>
+          <li>Video</li>
+          <li>Actions window</li>
+          <li>ARA</li>
+          <li>JSFX</li>
+          <li>Linux</li>
+          <li>Localization</li>
+          <li>Media items</li>
+          <li>Menus</li>
+          <li>Metronome</li>
+          <li>Mouse maps</li>
+          <li>Normalize</li>
+          <li>Razor edits</li>
+          <li>ReaScript/JSFX</li>
+          <li>Region manager</li>
+          <li>Regions</li>
+          <li>Retroactive MIDI record</li>
+          <li>Ruler</li>
+          <li>Tempo envelope</li>
+          <li>Toolbars</li>
+          <li>Undo</li>
+          <li>UTF-8</li>
+          <li>Virtual MIDI keyboard</li>
+          <li>VST</li>
+          <li>Windows</li>
+        </ul>
+      </description>
     </release>
     <release date="2023-12-12" version="v7.07">
       <description>
