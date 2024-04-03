@@ -63,6 +63,7 @@ modules:
           - rm -rf /app/extra/export/share/reaper_linux_*
       - type: extra-data
         filename: reaper.tar.xz
+
         url: https://www.reaper.fm/files/7.x/reaper713_linux_x86_64.tar.xz
         sha256: 663fb72d73681c3ebebf47439fc98aa8dd7863d4e4dbe7d9e16df8dd58d9a0bc
         size: 12205884
