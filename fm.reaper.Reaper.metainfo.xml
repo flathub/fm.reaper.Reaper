@@ -28,6 +28,34 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release date="2024-04-17" version="v7.15">
+      <description>
+        <p>REAPER 7.15: I would rather have questions that can't be answered than answers that can't be questioned.</p>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>FX</li>
+          <li>MIDI editor</li>
+          <li>Accessibility</li>
+          <li>Actions</li>
+          <li>macOS</li>
+          <li>Media explorer</li>
+          <li>ReaScript</li>
+          <li>VST</li>
+          <li>Color theme</li>
+          <li>FLAC</li>
+          <li>Lanes</li>
+          <li>Metadata</li>
+          <li>Mixer</li>
+          <li>Regions</li>
+          <li>Render</li>
+          <li>Splash screen</li>
+          <li>Take markers</li>
+          <li>Theme</li>
+          <li>Tooltips</li>
+          <li>API</li>
+        </ul>
+      </description>
+    </release>
     <release date="2024-04-02" version="v7.13">
       <description>
         <p>REAPER 7.13: Occam's REAPER</p>
