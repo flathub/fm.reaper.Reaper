@@ -28,6 +28,30 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release date="2024-08-26" version="v7.22">
+      <description>
+        <p>REAPER 7.22: Okey dokey!</p>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>Custom menu editor</li>
+          <li>Lanes</li>
+          <li>LV2</li>
+          <li>Actions</li>
+          <li>Appearance</li>
+          <li>CLAP</li>
+          <li>Click source</li>
+          <li>Freeze</li>
+          <li>Localization</li>
+          <li>MIDI</li>
+          <li>OGG Vorbis</li>
+          <li>ReaScript</li>
+          <li>Region manager</li>
+          <li>Regions</li>
+          <li>Render</li>
+          <li>Wildcards</li>
+        </ul>
+      </description>
+    </release>
     <release date="2024-04-17" version="v7.15">
       <description>
         <p>REAPER 7.15: I would rather have questions that can't be answered than answers that can't be questioned.</p>
