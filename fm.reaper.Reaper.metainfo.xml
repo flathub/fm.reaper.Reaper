@@ -28,6 +28,57 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release date="2024-10-04" version="v7.24">
+      <description>
+        <p>REAPER 7.24: Cow Tools</p>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>v7.24</li>
+          <li>Render</li>
+          <li>Automation</li>
+          <li>Metronome/click source</li>
+          <li>Normalize</li>
+          <li>ReaScript</li>
+          <li>Custom menu editor</li>
+          <li>Lanes</li>
+          <li>Localization</li>
+          <li>MIDI editor</li>
+          <li>Batch converter</li>
+          <li>CLAP</li>
+          <li>Click source</li>
+          <li>Extension API</li>
+          <li>FX</li>
+          <li>Grid</li>
+          <li>LV2</li>
+          <li>Metadata</li>
+          <li>Peaks</li>
+          <li>Project tabs</li>
+          <li>Recording</li>
+          <li>Ruler</li>
+          <li>SD2</li>
+          <li>Tempo map</li>
+          <li>Text</li>
+          <li>Tooltips</li>
+          <li>Track groups</li>
+          <li>VST</li>
+          <li>Arrange view</li>
+          <li>Envelopes</li>
+          <li>Freeze</li>
+          <li>Item ruler</li>
+          <li>Media explorer</li>
+          <li>Metering</li>
+          <li>Paste</li>
+          <li>Project bay</li>
+          <li>Razor edits</li>
+          <li>ReaVerb</li>
+          <li>Region/marker manager</li>
+          <li>Take marker editor</li>
+          <li>Timecode generator</li>
+          <li>Transport</li>
+          <li>Video</li>
+        </ul>
+      </description>
+    </release>
     <release date="2024-08-26" version="v7.22">
       <description>
         <p>REAPER 7.22: Okey dokey!</p>
