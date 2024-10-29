@@ -72,7 +72,7 @@ modules:
         x-checker-data:
           type: html
           url: https://www.reaper.fm/download.php
-          version-pattern: <div class="downloadinfo">REAPER v([\d\.-]*) -
+          version-pattern: "<div class='hdrbottom'>Version ([\\d\\.-]*):"
           url-template: https://www.reaper.fm/files/7.x/reaper${major}${minor}_linux_x86_64.tar.xz
 
       - type: extra-data
@@ -85,7 +85,7 @@ modules:
         x-checker-data:
           type: html
           url: https://www.reaper.fm/download.php
-          version-pattern: <div class="downloadinfo">REAPER v([\d\.-]*) -
+          version-pattern: "<div class='hdrbottom'>Version ([\\d\\.-]*):"
           url-template: https://www.reaper.fm/files/7.x/reaper${major}${minor}_linux_aarch64.tar.xz
 
       - type: script
