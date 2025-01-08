@@ -28,6 +28,9 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="7.30" date="2025-01-08">
+      <description></description>
+    </release>
     <release date="2024-10-04" version="v7.24">
       <description>
         <p>REAPER 7.24: Cow Tools</p>
