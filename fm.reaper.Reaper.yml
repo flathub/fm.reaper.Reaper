@@ -1,6 +1,6 @@
 app-id: fm.reaper.Reaper
 runtime: org.freedesktop.Platform
-runtime-version: "24.08"
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 tags:
   - proprietary
@@ -18,7 +18,7 @@ finish-args:
 add-extensions:
   org.freedesktop.LinuxAudio.Plugins:
     directory: extensions/Plugins
-    version: "23.08"
+    version: '23.08'
     add-ld-path: lib
     merge-dirs: lv2;vst;vst3
     subdirectories: true
@@ -26,7 +26,7 @@ add-extensions:
 
   org.freedesktop.Platform.ffmpeg-full:
     directory: lib/ffmpeg
-    version: "23.08"
+    version: '23.08'
     add-ld-path: .
     autodelete: false
 
@@ -64,9 +64,9 @@ modules:
       - type: extra-data
         filename: reaper.tar.xz
 
-        url: https://www.reaper.fm/files/7.x/reaper724_linux_x86_64.tar.xz
-        sha256: decb8ae7b34a7af08b4c67252666d7fcc9b4d694731ffadbf02481c9f28752f3
-        size: 12649740
+        url: https://www.reaper.fm/files/7.x/reaper731_linux_x86_64.tar.xz
+        sha256: e45d9f2eca5c4e63d88c42fc44bf2907d26b5359693441a728da67d24f8e514d
+        size: 12704460
         only-arches: [x86_64]
 
         x-checker-data:
@@ -77,9 +77,9 @@ modules:
 
       - type: extra-data
         filename: reaper.tar.xz
-        url: https://www.reaper.fm/files/7.x/reaper724_linux_aarch64.tar.xz
-        sha256: 6c225249ce5df5da1cf3a6aabe96ace36807b8fddec96289412ba6291fa86686
-        size: 11362532
+        url: https://www.reaper.fm/files/7.x/reaper731_linux_aarch64.tar.xz
+        sha256: 7d4fad080e174af21f75f42a99a40f749cb1ebfcb3104aa6ec21cdd5dc2793c2
+        size: 11416324
         only-arches: [aarch64]
 
         x-checker-data:
