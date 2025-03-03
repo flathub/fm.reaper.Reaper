@@ -24,6 +24,9 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="7.34" date="2025-03-03">
+      <description></description>
+    </release>
     <release date="2025-02-02" version="v7.33">
       <description>
         <p>REAPER 7.33: We are what we pretend to be</p>
