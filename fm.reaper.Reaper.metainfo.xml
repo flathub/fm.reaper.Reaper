@@ -24,8 +24,35 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="7.34" date="2025-03-03">
-      <description></description>
+    <release version="v7.34" date="2025-03-03">
+        <p>REAPER 7.33: That's Numberwang!</p>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>Localization</li>
+          <li>ReaScript</li>
+          <li>ARA</li>
+          <li>Automation</li>
+          <li>Color theme</li>
+          <li>Record input menu</li>
+          <li>Tempo/time signature</li>
+          <li>VST</li>
+          <li>Crossfades</li>
+          <li>Filenames</li>
+          <li>FX</li>
+          <li>JSFX</li>
+          <li>Linux</li>
+          <li>macOS</li>
+          <li>Meters</li>
+          <li>MIDI</li>
+          <li>MIDI editor</li>
+          <li>Project load</li>
+          <li>Razor edits</li>
+          <li>RS5k</li>
+          <li>Track/Region/Group Manager</li>
+          <li>Transport</li>
+          <li>Windows</li>
+          <li>API</li>
+        </ul>
     </release>
     <release date="2025-02-02" version="v7.33">
       <description>
