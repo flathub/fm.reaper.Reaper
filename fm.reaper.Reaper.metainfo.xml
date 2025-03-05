@@ -25,6 +25,7 @@
   </screenshots>
   <releases>
     <release version="v7.34" date="2025-03-03">
+      <description>
         <p>REAPER 7.33: That's Numberwang!</p>
         <p>The following components were updated:</p>
         <ul>
@@ -53,6 +54,7 @@
           <li>Windows</li>
           <li>API</li>
         </ul>
+      </description>
     </release>
     <release date="2025-02-02" version="v7.33">
       <description>
