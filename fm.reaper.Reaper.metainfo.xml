@@ -24,8 +24,31 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="7.35" date="2025-03-23">
-      <description></description>
+    <release version="v7.35" date="2025-03-23">
+      <description>
+        <p>REAPER 7.35: That's Numberwang!</p>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>PDC auto-bypass</li>
+          <li>ReaScript</li>
+          <li>Render</li>
+          <li>Ripple</li>
+          <li>Toolbar editor</li>
+          <li>Video</li>
+          <li>Automation</li>
+          <li>Consolidate/glue</li>
+          <li>File types</li>
+          <li>FX</li>
+          <li>Media explorer</li>
+          <li>Media item take channel mapper</li>
+          <li>Region/marker manager</li>
+          <li>Startup</li>
+          <li>Theme</li>
+          <li>Track routing window</li>
+          <li>WAV files</li>
+          <li>API</li>
+        </ul>
+      </description>
     </release>
     <release version="v7.34" date="2025-03-03">
       <description>
