@@ -24,6 +24,40 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="v7.38" date="2025-05-02">
+      <description>
+        <p>REAPER 7.38: Render Reveal Party</p>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>7.38</li>
+          <li>Render</li>
+          <li>Big clock</li>
+          <li>MIDI editor</li>
+          <li>Actions</li>
+          <li>Wildcards</li>
+          <li>Actions window</li>
+          <li>Batch converter</li>
+          <li>MP3 decoding</li>
+          <li>Take FX</li>
+          <li>Fixed lanes</li>
+          <li>FX</li>
+          <li>Localization</li>
+          <li>Loudness</li>
+          <li>macOS</li>
+          <li>Meters</li>
+          <li>Mixer</li>
+          <li>Normalize action</li>
+          <li>Preferences</li>
+          <li>Razor edits</li>
+          <li>ReaScript</li>
+          <li>Region/Marker Manager</li>
+          <li>Render queue</li>
+          <li>Render/Convert</li>
+          <li>Theme</li>
+          <li>Track/region/marker/group manager</li>
+        </ul>
+      </description>
+    </release>
     <release version="v7.35" date="2025-03-23">
       <description>
         <p>REAPER 7.35: That's Numberwang!</p>
