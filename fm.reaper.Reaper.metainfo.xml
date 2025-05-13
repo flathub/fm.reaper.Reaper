@@ -24,6 +24,37 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="v7.39" date="2025-05-12">
+      <description>
+        <p>REAPER 7.39: Render Reveal Party</p>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>Render</li>
+          <li>Big clock</li>
+          <li>Peaks</li>
+          <li>MIDI</li>
+          <li>Item notes</li>
+          <li>Media explorer</li>
+          <li>Meters</li>
+          <li>ReaScript</li>
+          <li>Theme</li>
+          <li>Undo</li>
+          <li>Wildcards</li>
+          <li>Actions</li>
+          <li>Actions window</li>
+          <li>Debug</li>
+          <li>Fixed lanes</li>
+          <li>FX</li>
+          <li>LTC generator</li>
+          <li>Media item properties</li>
+          <li>Recording</li>
+          <li>Spectral edits</li>
+          <li>Text drawing</li>
+          <li>Trim behind</li>
+          <li>Windows</li>
+        </ul>
+      </description>
+    </release>
     <release version="v7.38" date="2025-05-02">
       <description>
         <p>REAPER 7.38: Render Reveal Party</p>
