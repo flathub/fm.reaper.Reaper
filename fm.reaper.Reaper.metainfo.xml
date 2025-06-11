@@ -24,6 +24,9 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="7.40" date="2025-06-10">
+      <description></description>
+    </release>
     <release version="v7.39" date="2025-05-12">
       <description>
         <p>REAPER 7.39: Render Reveal Party</p>
