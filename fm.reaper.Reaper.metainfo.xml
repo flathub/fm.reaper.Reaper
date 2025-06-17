@@ -24,6 +24,53 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="v7.40" date="2025-06-10">
+      <description>
+        <p>REAPER 7.40: Render Reveal Party</p>
+        <p>The following components were updated:</p>
+        <ul>
+          <li>Actions</li>
+          <li>Audio Units</li>
+          <li>Big clock</li>
+          <li>Click source</li>
+          <li>Crossfade editor</li>
+          <li>Crossfades</li>
+          <li>Envelopes</li>
+          <li>Joysticks</li>
+          <li>Linux</li>
+          <li>Localization</li>
+          <li>LV2</li>
+          <li>macOS</li>
+          <li>Media explorer</li>
+          <li>Menu/toolbar customization window</li>
+          <li>Meters</li>
+          <li>MIDI</li>
+          <li>MIDI editor</li>
+          <li>Mouse modifiers</li>
+          <li>Paste</li>
+          <li>Peaks</li>
+          <li>Peaks building</li>
+          <li>Phase aligner</li>
+          <li>Project settings</li>
+          <li>Razor edits</li>
+          <li>ReaControlMIDI</li>
+          <li>ReaEQ</li>
+          <li>ReaNINJAM</li>
+          <li>ReaPlugs</li>
+          <li>ReaScript</li>
+          <li>ReaSurroundPan</li>
+          <li>ReaVerb</li>
+          <li>Render window</li>
+          <li>RS5k</li>
+          <li>Ruler</li>
+          <li>Samplerate conversion</li>
+          <li>Snapping</li>
+          <li>Theme</li>
+          <li>Wildcards</li>
+          <li>Windows</li>
+        </ul>
+      </description>
+    </release>
     <release version="v7.39" date="2025-05-12">
       <description>
         <p>REAPER 7.39: Render Reveal Party</p>
@@ -866,6 +913,8 @@
       </description>
     </release>
   </releases>
-  <developer_name>Cockos Incorporated</developer_name>
+  <developer id="com.cockos">
+    <name>Cockos Incorporated</name>
+  </developer>
   <update_contact>support@cockos.com</update_contact>
 </component>
