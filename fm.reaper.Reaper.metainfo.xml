@@ -24,7 +24,7 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="v7.39" date="2025-05-12">
+    <release version="7.39" date="2025-05-12">
       <description>
         <p>REAPER 7.39: Render Reveal Party</p>
         <p>The following components were updated:</p>
@@ -55,7 +55,7 @@
         </ul>
       </description>
     </release>
-    <release version="v7.38" date="2025-05-02">
+    <release version="7.38" date="2025-05-02">
       <description>
         <p>REAPER 7.38: Render Reveal Party</p>
         <p>The following components were updated:</p>
@@ -89,7 +89,7 @@
         </ul>
       </description>
     </release>
-    <release version="v7.35" date="2025-03-23">
+    <release version="7.35" date="2025-03-23">
       <description>
         <p>REAPER 7.35: That's Numberwang!</p>
         <p>The following components were updated:</p>
@@ -115,7 +115,7 @@
         </ul>
       </description>
     </release>
-    <release version="v7.34" date="2025-03-03">
+    <release version="7.34" date="2025-03-03">
       <description>
         <p>REAPER 7.33: That's Numberwang!</p>
         <p>The following components were updated:</p>
@@ -147,7 +147,7 @@
         </ul>
       </description>
     </release>
-    <release date="2025-02-02" version="v7.33">
+    <release date="2025-02-02" version="7.33">
       <description>
         <p>REAPER 7.33: We are what we pretend to be</p>
         <p>The following components were updated:</p>
@@ -182,7 +182,7 @@
         </ul>
       </description>
     </release>
-    <release date="2024-10-04" version="v7.24">
+    <release date="2024-10-04" version="7.24">
       <description>
         <p>REAPER 7.24: Cow Tools</p>
         <p>The following components were updated:</p>
@@ -233,7 +233,7 @@
         </ul>
       </description>
     </release>
-    <release date="2024-08-26" version="v7.22">
+    <release date="2024-08-26" version="7.22">
       <description>
         <p>REAPER 7.22: Okey dokey!</p>
         <p>The following components were updated:</p>
@@ -257,7 +257,7 @@
         </ul>
       </description>
     </release>
-    <release date="2024-04-17" version="v7.15">
+    <release date="2024-04-17" version="7.15">
       <description>
         <p>REAPER 7.15: I would rather have questions that can't be answered than answers that can't be questioned.</p>
         <p>The following components were updated:</p>
@@ -285,7 +285,7 @@
         </ul>
       </description>
     </release>
-    <release date="2024-04-02" version="v7.13">
+    <release date="2024-04-02" version="7.13">
       <description>
         <p>REAPER 7.13: Occam's REAPER</p>
         <p>The following components were updated:</p>
@@ -322,7 +322,7 @@
         </ul>
       </description>
     </release>
-    <release date="2024-03-26" version="v7.12">
+    <release date="2024-03-26" version="7.12">
       <description>
         <p>REAPER 7.12: Occam's REAPER</p>
         <p>The following components were updated:</p>
@@ -359,7 +359,7 @@
         </ul>
       </description>
     </release>
-    <release date="2024-01-17" version="v7.09">
+    <release date="2024-01-17" version="7.09">
       <description>
         <p>REAPER 7.09: Bland Ballad Band</p>
         <p>The following components were updated:</p>
@@ -380,7 +380,7 @@
         </ul>
       </description>
     </release>
-    <release date="2024-01-09" version="v7.08">
+    <release date="2024-01-09" version="7.08">
       <description>
         <p>REAPER 7.08: Bland Ballad Band</p>
         <p>The following components were updated:</p>
@@ -423,7 +423,7 @@
         </ul>
       </description>
     </release>
-    <release date="2023-12-12" version="v7.07">
+    <release date="2023-12-12" version="7.07">
       <description>
         <p>REAPER 7.07: Bland Ballad Band</p>
         <p>The following components were updated:</p>
@@ -461,7 +461,7 @@
         </ul>
       </description>
     </release>
-    <release date="2023-11-27" version="v7.06">
+    <release date="2023-11-27" version="7.06">
       <description>
         <p>REAPER 7.06: Several People Are Typing</p>
         <p>The following components were updated:</p>
@@ -501,7 +501,7 @@
         </ul>
       </description>
     </release>
-    <release date="2023-11-12" version="v7.05">
+    <release date="2023-11-12" version="7.05">
       <description>
         <p>REAPER 7.05: Several People Are Typing</p>
         <p>The following components were updated:</p>
@@ -520,7 +520,7 @@
         </ul>
       </description>
     </release>
-    <release date="2023-11-07" version="v7.03">
+    <release date="2023-11-07" version="7.03">
       <description>
         <p>REAPER 7.03: Several People Are Typing</p>
         <p>The following components were updated:</p>
@@ -551,7 +551,7 @@
         </ul>
       </description>
     </release>
-    <release date="2023-10-07" version="v7.02">
+    <release date="2023-10-07" version="7.02">
       <description>
         <p>REAPER 7.02: Several People Are Typing</p>
         <p>The following components were updated:</p>
@@ -589,7 +589,7 @@
         </ul>
       </description>
     </release>
-    <release date="2023-10-19" version="v7.01">
+    <release date="2023-10-19" version="7.01">
       <description>
         <p>REAPER 7.01: Several People Are Typing</p>
         <p>The following components were updated:</p>
@@ -652,7 +652,7 @@
         </ul>
       </description>
     </release>
-    <release date="2023-10-16" version="v7.001">
+    <release date="2023-10-16" version="7.001">
       <description>
         <p>REAPER 7.001: Several People Are Typing</p>
         <p>The following components were updated:</p>
@@ -714,7 +714,7 @@
         </ul>
       </description>
     </release>
-    <release date="2023-08-23" version="v6.82">
+    <release date="2023-08-23" version="6.82">
       <description>
         <p>The following components were updated:</p>
         <ul>
@@ -745,7 +745,7 @@
         </ul>
       </description>
     </release>
-    <release date="2023-07-04" version="v6.81">
+    <release date="2023-07-04" version="6.81">
       <description>
         <p>The following components were updated:</p>
         <ul>
@@ -771,7 +771,7 @@
         </ul>
       </description>
     </release>
-    <release date="2023-05-27" version="v6.80">
+    <release date="2023-05-27" version="6.80">
       <description>
         <p>The following components were updated:</p>
         <ul>
@@ -805,7 +805,7 @@
         </ul>
       </description>
     </release>
-    <release date="2023-04-23" version="v6.79">
+    <release date="2023-04-23" version="6.79">
       <description>
         <p>The following components were updated:</p>
         <ul>
@@ -847,7 +847,7 @@
         </ul>
       </description>
     </release>
-    <release date="2023-03-13" version="v6.78">
+    <release date="2023-03-13" version="6.78">
       <description>
         <p>The following components were updated:</p>
         <ul>
