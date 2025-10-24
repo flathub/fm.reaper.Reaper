@@ -64,9 +64,9 @@ modules:
       - type: extra-data
         filename: reaper.tar.xz
 
-        url: https://www.reaper.fm/files/7.x/reaper748_linux_x86_64.tar.xz
-        sha256: a6c47e350394c1c107e1303b8bf188fb73a98d3524842af4353108072108c6cc
-        size: 12974448
+        url: https://www.reaper.fm/files/7.x/reaper749_linux_x86_64.tar.xz
+        sha256: a14ba4d7a4e8212a32b7dcba9c083f64b2e53b8a5f15c24c1223d468a82472d0
+        size: 12986216
         only-arches: [x86_64]
 
         x-checker-data:
@@ -77,9 +77,9 @@ modules:
 
       - type: extra-data
         filename: reaper.tar.xz
-        url: https://www.reaper.fm/files/7.x/reaper748_linux_aarch64.tar.xz
-        sha256: 9bd132d2bbc12e76d9ef0d66bc67bee878ecf2973a8ce4d61fd99a9696f31d1e
-        size: 11653252
+        url: https://www.reaper.fm/files/7.x/reaper749_linux_aarch64.tar.xz
+        sha256: bdb7047c37ee86bcfc7fe01bb067e3181d3dc0e0a679be8e3c12e32c76565609
+        size: 11660692
         only-arches: [aarch64]
 
         x-checker-data:
