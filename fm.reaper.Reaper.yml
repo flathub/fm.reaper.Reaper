@@ -1,6 +1,6 @@
 app-id: fm.reaper.Reaper
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 tags:
   - proprietary
@@ -23,12 +23,6 @@ add-extensions:
     merge-dirs: lv2;clap;vst;vst3
     subdirectories: true
     no-autodownload: true
-
-  org.freedesktop.Platform.ffmpeg-full:
-    directory: lib/ffmpeg
-    version: '24.08'
-    add-ld-path: .
-    autodelete: false
 
 modules:
   - name: reaper
