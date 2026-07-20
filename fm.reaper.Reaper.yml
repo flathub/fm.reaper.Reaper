@@ -98,7 +98,11 @@ modules:
       - type: script
         dest-filename: reaper
         commands:
-          - /app/extra/REAPER/reaper
+          - export LV2_PATH=$HOME/.lv2:/app/extensions/Plugins/lv2:/app/lib/lv2
+          - export CLAP_PATH=/app/extensions/Plugins/clap
+          - export VST_PATH=/app/extensions/Plugins/vst
+          - export VST3_PATH=/app/extensions/Plugins/vst3
+          - exec /app/extra/REAPER/reaper "$@"
       - type: file
         path: fm.reaper.Reaper.desktop
       - type: file
